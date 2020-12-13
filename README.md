@@ -8,9 +8,9 @@ seismo-learn 的 logo 由三部分组成：
 
 ## 预览与下载
 
-- [PDF格式](logo.pdf)
-- [PNG格式](logo.png)
-- [JPG格式](logo.jpg)
+- [PDF 格式](logo.pdf)
+- [PNG 格式](logo.png)
+- [JPG 格式](logo.jpg)
 
 ## 相关脚本
 
