@@ -22,4 +22,4 @@ seismo-learn 的 logo 由三部分组成：
 此 logo 目前已用于如下情景：
 
 - [GitHub 组织页面](https://github.com/organizations/seismo-learn/settings/profile)
-- 各网站favicon
+- 各网站 favicon
