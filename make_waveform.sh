@@ -5,10 +5,10 @@
 
 # download SAC data format in .zip bundle for the event
 # 20140403T02:43:13.110Z, -20.5709, -70.4931, 22.4, KILOMETER, 7.7, mww
-wget -r -c -np http://service.iris.edu/fdsnws/dataselect/1/query\?net\=IU\&sta\=HRV\&loc\=00\&cha\=BH2\&start\=2014-04-03T02:43:13.110\&end\=2014-04-03T03:43:13.110\&format\=sac.zip -O IU.HRV.00.BH2.SAC.zip
+wget -q "https://service.iris.edu/fdsnws/dataselect/1/query?net=IU&sta=HRV&loc=00&cha=BH2&start=2014-04-03T02:43:13.110&end=2014-04-03T03:43:13.110&format=sac.zip" -O IU.HRV.00.BH2.SAC.zip
 
 # extract and rename SAC data
-unzip IU.HRV.00.BH2.SAC.zip
+unzip -q IU.HRV.00.BH2.SAC.zip
 mv IU.HRV.00.BH2.M.2014.093.024313.SAC IU.HRV.00.BH2.SAC
 
 export SAC_DISPLAY_COPYRIGHT=0
